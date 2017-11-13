@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>走在月下</title>
+<meta name="description" content="风尘中的狗--杜尘然" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,user-scalable=no,minimal-ui">
+<link href="css/bootstrap.min.css">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script src="js/scrollReveal.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <header>
+          <div class="logo" data-scroll-reveal="enter right over 1s">走在海边，走在月下</div>
+          <nav class="topnav" data-scroll-reveal="enter bottom over 1s after 1s"><a href="index.html"><span>首页</span><span class="en">Home</span></a><a href="about.html"><span>关于我</span><span class="en">About</span></a><a href="manshenghuo.html"><span>慢生活</span><span class="en">Life</span></a><a href="learn.html"><span>碎言碎语</span><span class="en">Doing</span></a><a href="mbfx.html"><span>模板分享</span><span class="en">Share</span></a><a href="learn.html"><span>学无止境</span><span class="en">Learn</span></a><a href="gbook.html"><span>留言</span><span class="en">Saying</span></a></nav>
+        </header>
+        <article>
+          <div class="container">
+
+              <div class="blog" data-scroll-reveal="enter top" >
+                <div class="row">
+                  <figure class="col-xs-4">
+                    <ul>
+                      <a href="/"><img src="images/t01.jpg"></a>
+                    </ul>
+                    <p><a href="/">灯具公司复古风格PSD设计稿</a></p>
+                    <figcaption>此模板为PSD设计稿，复古风格。首页主要突出产品，以及公司简介。手绘灯作为头部背景图片，这个比较特别。html可以做出灯一闪一闪的效果，或者说旁边有个按钮...</figcaption>
+                  </figure>
+                  <figure class="col-xs-4">
+                    <ul>
+                      <a href="/"><img src="images/t02.jpg"></a>
+                    </ul>
+                    <p><a href="/">个人博客模板古典系列之――江南墨..</a></p>
+                    <figcaption>一共是四个页面，首页，图文列表，图片列表，文字内容。此模板风格为中国古典风格，山水画墨迹成就一幅江南墨卷。页面首页设计较为简单，突出文章重点。图文列表显示...</figcaption>
+                  </figure>
+                  <figure class="col-xs-4">
+                    <ul>
+                      <a href="/"><img src="images/t03.jpg"></a>
+                    </ul>
+                    <p><a href="/">美丽的茧</a></p>
+                    <figcaption>让世界拥有它的脚步，让我保有我的茧。当溃烂已极的心灵再不想做一丝一毫的思索时，就让我静静回到我的茧内，以回忆为睡榻，以悲哀为覆被，这是我唯一的美丽。</figcaption>
+                  </figure>
+                </div>
+              </div>
+
+
+              <ul class="cbp_tmtimeline">
+                <!--渲染模板区-->
+              </ul>
+          </div>
+        </article>
+        <footer>
+          Design by DanceSmile <a href="/">蜀ICP备11002373号-1</a>
+        </footer>
+      </div>
+    </div>
+</div>
+
+
+
+<script>
+
+
+    (function () {
+
+        var ajax=new XMLHttpRequest();
+        /*同步加载数据*/
+        ajax.open('get','/art/showart',false);
+        ajax.onreadystatechange=function () {
+            if(ajax.status==200&&ajax.readyState==4){
+                var data=ajax.responseText;
+                data=JSON.parse(data);
+                var html='';
+
+                for(var i in data){
+                        var src='';
+                        /*判断文章类型，获取对应图片*/
+                        switch (data[i].type)
+                        {
+                            case 'javascript':
+                               src='images/js.jpg';
+                                break
+                            case 'css':
+                                src='images/css3.jpg';
+                                break
+                            case 'ajax':
+                                src='images/ajax.jpg';
+                                break
+                            case 'nodejs':
+                                src='images/nodejs.jpg';
+                                break
+                            case '工具':
+                                src='images/gulp.jpg';
+                                break
+                        }
+                    html+=' <li> <time class="cbp_tmtime"><span>'+data[i].setime.split(' ')[0]+'</span> <span>'+ data[i].setime.split(' ')[1]+'</span></time>';
+                    html+=' <div class="cbp_tmicon"></div> <div class="cbp_tmicon"></div> <div class="cbp_tmlabel" data-scroll-reveal="enter right over 1s" >';
+                    html+=' <h2>'+data[i].title+'</h2>'
+					html+='<p><span class="blogpic"><a href="/"><img src="'+src+'"></a></span>'+data[i].digest+'</p>'
+                    html+='<a href="./learnpage.html?id='+data[i]._id+'" target="_blank" class="readmore">阅读全文&gt;&gt;</a></div> </li>'
+				}
+				document.querySelector('.cbp_tmtimeline').innerHTML=html;
+            }
+        }
+        ajax.send();
+
+        /*不支持低版本IE*/
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+            (function(){
+                window.scrollReveal = new scrollReveal({reset: true});
+            })();
+        };
+
+    })()
+
+</script> 
+</body>
+</html>

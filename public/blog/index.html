@@ -1,0 +1,402 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>走在月下</title>
+<meta name="description" content="风尘中的狗--杜尘然" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,user-scalable=no,minimal-ui">
+<link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/base.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/scrollReveal.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/echarts.common.min.js"></script>
+<script src="./js/fenye.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+  <!--页头-->
+        <header>
+              <div class="col-xs-12">
+                <div class="logo" data-scroll-reveal="enter right over 1s">走在海边，走在月下</div>
+              </div>
+              <nav class="topnav" data-scroll-reveal="enter bottom over 1s after 1s">
+                  <div class="container">
+                    <!--响应式导航头-->
+                      <div class="navbar navbar-default" style="background: none;border: none">
+                          <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                                <span class="sr-only"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                              <a class="navbar-brand" href="#"></a>
+                          </div>
+                          <div class="navbar-collapse collapse" id="navbar">
+                              <ul class="nav navbar-nav">
+                                  <li><a href="index.html"><span>首页</span><span class="en">Home</span></a></li>
+                                  <li><a href="about.html"><span>关于我</span><span class="en">About</span></a></li>
+                                  <li><a href="learn.html"><span>学无止境</span><span class="en">Learn</span></a></li>
+                                  <li><a href="manshenghuo.html"><span>慢生活</span><span class="en">Life</span></a></li>
+                                  <li><a href="gbook.html"><span>留言</span><span class="en">Saying</span></a></li>
+                              </ul>
+                           </div>
+                       </div>
+                  </div>
+            </nav>
+        </header>
+
+        <article>
+          <div class="container">
+              <div class="blog" data-scroll-reveal="enter left" >
+                <div class="row">
+                  <figure class="col-xs-4">
+                    <ul>
+                      <a href="/"><img src="images/anPic1.jpg"></a>
+                    </ul>
+                      <figcaption>不管前方的路有多苦，只要走的方向正确，不管多么崎岖不平，都比站在原地更接近幸福。
+                          <br><br>
+                          <b style="float: right">——宫崎骏《千与千寻》</b>
+                      </figcaption>
+                  </figure>
+                  <figure class="col-xs-4">
+                    <ul class="">
+                      <a href="/"><img src="images/anPic2.jpg"></a>
+                        <div id="gifbox">
+                            <img src="images/zz.gif" style="width: 30%" class="domove" id="zz">
+                            <div id="controlbox">
+                                <ul>
+                                    <li><i class="fa fa-youtube-play"></i> </li>
+                                    <li><i class="fa fa-pause"></i> </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </ul>
+                    <figcaption>
+                    </figcaption>
+                  </figure>
+                  <figure class="col-xs-4">
+                    <ul>
+                      <a href="/"><img src="images/anPic3%20.jpg"></a>
+                    </ul>
+                    <figcaption>我不知道离别的滋味是这样凄凉，我不知道说声再见要这么坚强。
+                        <br><br>
+                        <b style="float: right">——宫崎骏《千与千寻》</b></figcaption>
+                  </figure>
+                </div>
+
+              </div>
+              <ul class="cbp_tmtimeline" id="cbp_tmtimeline">
+                  <!--模板区-->
+                  <!--切换按钮-->
+              </ul>
+              html+='<div class="page" id="pages"></div>';
+          </div>
+
+        </article>
+        <footer>
+          Design by DanceSmile <a href="/">蜀ICP备11002373号-1</a>
+        </footer>
+    </div>
+</div>
+<script>
+
+    /*数据请求渲染页面函数*/
+    var dopage=function () {
+        var ajax=new XMLHttpRequest();
+        /*加载数据*/
+        ajax.open('get','/art/showart');
+        ajax.onreadystatechange=function () {
+            if(ajax.status==200&&ajax.readyState==4){
+                var data=ajax.responseText;
+                data=JSON.parse(data);
+                /*分页参数配置*/
+                var pageoptions={
+                    pageId:'#cbp_tmtimeline',
+                    btnId:"#pages",
+                    pagesize:3,
+                    data:data,
+                    /*渲染模板*/
+                    callback:function (data) {
+                        /*渲染报表*/
+                        var html='  <div id="changeBox"  data-index="0">\n' +
+                            '<span class="glyphicon glyphicon-indent-left"></span>\n' +
+                            '</div>\n' +
+                            '<div class="col-xs-12">\n' +
+                            '<div id="echart" style="width: 100%">\n' +
+                            '</div>\n' +
+                            '</div>';
+                        /*渲染内容*/
+                        for(var i in data){
+                            var src='';
+                            /*判断文章类型，获取对应图片*/
+                            switch (data[i].art.artype)
+                            {
+                                case 'javascript':
+                                    src='images/js.jpg';
+                                    break;
+                                case 'css':
+                                    src='images/css3.jpg';
+                                    break;
+                                case 'ajax':
+                                    src='images/ajax.jpg';
+                                    break;
+                                case 'nodejs':
+                                    src='images/nodejs.jpg';
+                                    break;
+                                case '工具':
+                                    src='images/gulp.jpg';
+                                    break;
+                                case '书籍推荐':
+                                    src='images/book.jpg';
+                                    break
+                                case '生活杂记':
+                                    src='images/life.jpg'
+                            }
+                            html+='<li><div class="row"><div class="col-md-3 col-sm-3 col-xs-4 clear-by-after">';
+                            html+='<time class="cbp_tmtime" ><span>'+data[i].art.setime.split(' ')[0]+'</span> <span>'+data[i].art.setime.split(' ')[1]+'</span></time>';
+                            html+='<div class="cbp_tmicon"></div></div><div class="col-md-9 col-sm-9 col-xs-8"><div class="cbp_tmlabel" data-scroll-reveal="wait '+i*.3+'s enter right over 1s" >' ;
+                            html+='<h2>'+data[i].art.title+'</h2>';
+                            html+=' <div class="row"> <img src="'+src+'" class="col-xs-2 blogpic"><p class="col-sm-6 hidden-xs" style="text-align: justify;white-space:pre-wrap;word-break:break-all">'+data[i].art.digest+'</p></div> ';
+                            html+='<a href="./learnpage.html?id='+data[i]._id+'" class="readmore">阅读全文&gt;&gt;</a></li>';
+                        }
+                        document.querySelector(this.pageId).innerHTML=html;
+
+                        /*获取滚动插件所需的动态加载的元素并初始化插件*/
+                        scrollReveal.init();
+                        /*文章列表与报表的切换*/
+                        var btn=document.querySelector('#changeBox');
+                        btn.addEventListener('click',function () {
+                            exchange(this);
+                            doEcharts();
+                            jupmEcharts();
+                        });
+                    }
+                };
+                pageObj.init(pageoptions);
+            }
+        };
+        ajax.send();
+    }
+    /****************数据请求结束***********************/
+    /*整理后台数据*/
+    function dealData(data,btype) {
+        var typeobj = {};
+        if(btype!='art'){
+            for(var i in data){
+                var type=data[i][btype];
+                if(typeobj[type]) {
+                    typeobj[type].value++;
+                }else{
+                    typeobj[type]={};
+                    typeobj[type].value=1;
+                    typeobj[type].name=type;
+                }
+            }
+        }else{
+            for(var i in data){
+                var type=data[i].art.artype;
+                if(typeobj[type]) {
+                    typeobj[type].value++;
+                }else{
+                    typeobj[type]={};
+                    typeobj[type].value=1;
+                    typeobj[type].name=type;
+                }
+            }
+        }
+        var study={};
+        study.name=[];
+        study.info=[];
+        for(var i in typeobj){
+            study.info.push(typeobj[i].name);
+            study.name.push(typeobj[i]);
+        }
+        return study;
+    }
+    /*建立一级报表*/
+    EchartsMain=function () {
+        $.get('/art/showart',function (data) {
+            var optionData=dealData(data,'type');
+            blogchar.setOption({
+                    title : {
+                        text: '文章统计',
+                        subtext: '请点击',
+                        x:'center'
+                    },
+                    legend: {
+                        data: optionData.info
+                    },
+                    series: [{
+                        data: optionData.name
+                    }]
+                }
+            )
+        });
+    }
+    /*建立二级报表*/
+    EchartsArt=function (conditions) {
+        /*报表绑定事件*/
+        blogchar.on('click',function (params) {
+            /*获取事件源类名，获取对应类下二级类数据*/
+            if(params.name==conditions){
+                $.get('/art/showart',function (data){
+                    var matchdata=[];
+                    for(var i in data){
+                        if(data[i].type==conditions){
+                            matchdata.push(data[i]);
+                        }
+                    }
+                    /*传入数据，处理报表所需数据*/
+                    var optionData=dealData(matchdata,'art');
+                    blogchar.setOption({
+                            title : {
+                                text: conditions+'统计',
+                                subtext: '右键返回上级',
+                                x:'center'
+                            },
+                            legend: {
+                                data: optionData.info
+                            },
+                            series: [{
+                                data: optionData.name
+                            }]
+                    })
+                });
+            }
+        })
+    }
+    /*建立报表*/
+    doEcharts=function () {
+        /*报表参数*/
+        option = {
+            title : {
+                text: '文章统计',
+                subtext: '请点击',
+                x:'center'
+            },
+            tooltip : {
+                trigger: 'item',
+                formatter: "{a} <br/>{b} : {c} ({d}%)"
+            },
+            legend: {
+                orient: 'vertical',
+                left: 'left',
+                itemWidth:80,
+                data:[]
+            },
+            series : [
+                {
+                    name: '分类占比',
+                    type: 'pie',
+                    radius : '55%',
+                    center: ['50%', '55%'],
+                    data:[
+
+                    ],
+                    itemStyle: {
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }
+            ]
+        };
+        /*初始化报表*/
+        blogchar = echarts.init(document.getElementById('echart'));
+        /*报表配置函数*/
+        blogchar.setOption(option);
+
+        $(document).on('contextmenu',function (e) {
+            e.preventDefault();
+            EchartsMain();
+        });
+        EchartsMain();
+        EchartsArt('学无止境');
+        EchartsArt('慢生活');
+    }
+    /*切换*/
+    exchange=function (btn) {
+        if(btn.dataset.index=='0'){
+            var cname=btn.parentNode.className+' cbp_active';
+            btn.parentNode.className=cname;
+            btn.style.right='-100%';
+            btn.querySelector('span').className='glyphicon glyphicon-indent-right'
+            btn.dataset.index='1';
+            document.querySelector('#pages').style.display='none';
+        }else{
+            btn.parentNode.className='cbp_tmtimeline';
+            btn.style.right='0%';
+            btn.querySelector('span').className='glyphicon glyphicon-indent-left'
+            btn.dataset.index='0';
+            document.querySelector('#pages').style.display='block';
+        }
+    }
+    /*二级报表点击项目对应跳转*/
+    jupmEcharts=function () {
+        blogchar.on('click',function (params) {
+            /*获取事件源类名，获取对应类下二级类数据*/
+            $.get('/art/showart',function (data) {
+                var matchdata=[];
+                for(var i in data){
+                    if(data[i].type=='学无止境'){
+                        /*获取主类数据*/
+                        matchdata.push(data[i]);
+                    }
+                }
+                /*处理数据*/
+                var dealdata=dealData(matchdata,'art');
+                /*获取二级类名*/
+                var iteam=dealdata.info;
+                /*发送类名*/
+                iteam.forEach(function (v) {
+                    if(v===params.name){
+                        location.href='./learn.html?type='+v;
+                        return ;
+                    }
+                })
+            })
+        })
+    }
+
+    catMove=function () {
+        var aLis=gifbox.querySelectorAll('li');
+        //var bike=document.querySelector('.domove');
+        aLis[0].onclick=function () {
+            if(zz.className==''){
+                zz.className='domove';
+            }
+            zz.style.animationPlayState='running';
+        }
+        aLis[1].onclick=function () {
+            zz.style.animationPlayState='paused';
+        }
+
+
+    }
+
+    /*页面初始化*/
+    window.onload=function () {
+        dopage()
+       window.scrollReveal = new scrollReveal({reset: true});
+       document.addEventListener('scroll',function (e) {
+          if($(this).scrollTop()>=400){
+              $('#changeBox').css('opacity','1');
+          }else{
+              $('#changeBox').css({'opacity':'0'});
+          };
+       })
+        catMove();
+    };
+
+</script> 
+</body>
+</html>

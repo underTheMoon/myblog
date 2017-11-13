@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efb6a966-5744-4172-8b02-3bd51384d86f" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="learn.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/blog/learn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1506670321599" expanded="true" signature="4273:4283" ph="..." />
+                <marker date="1506670321599" expanded="true" signature="4284:4292" ph="..." />
+                <marker date="1506670321599" expanded="true" signature="4431:4459" ph="..." />
+                <marker date="1506670321599" expanded="true" signature="6172:6233" ph="..." />
+                <marker date="1506670321599" expanded="true" signature="6353:6357" ph="&gt;" />
+                <marker date="1506670321599" expanded="true" signature="6357:6361" ph="&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learnpage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/blog/learnpage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+              <folding>
+                <marker date="1506670415164" expanded="true" signature="3963:3967" ph="&gt;" />
+                <marker date="1506670415164" expanded="true" signature="4005:4009" ph="&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ueditor.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+              <folding>
+                <marker date="1509969961155" expanded="true" signature="10270:10280" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ueditor.all.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22072">
+              <caret line="1175" column="7" lean-forward="true" selection-start-line="1175" selection-start-column="7" selection-end-line="1175" selection-end-column="7" />
+              <folding>
+                <marker date="1506670231472" expanded="true" signature="342175:342192" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="346808:346826" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="388873:388899" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="520373:520449" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="547257:547329" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="557220:557246" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="557442:557533" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="557790:557865" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="558052:558067" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="558287:558339" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="570261:570350" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="634559:634631" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="653641:653653" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="655885:655909" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="680978:680984" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="680984:680990" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="681094:681100" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="681100:681106" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="681210:681216" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="681216:681222" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="683391:683397" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="683397:683403" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="684370:684376" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="684376:684382" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="684522:684528" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="684528:684534" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="684676:684682" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="684682:684688" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="684832:684838" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="684838:684844" ph=" " />
+                <marker date="1506670231472" expanded="true" signature="685654:685665" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="689602:689615" ph="..." />
+                <marker date="1506670231472" expanded="true" signature="689992:690028" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manshenghuo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/blog/manshenghuo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5133">
+              <caret line="177" column="15" lean-forward="false" selection-start-line="177" selection-start-column="15" selection-end-line="177" selection-end-column="15" />
+              <folding>
+                <marker date="1510059844897" expanded="true" signature="6348:6409" ph="..." />
+                <marker date="1510059844897" expanded="true" signature="6539:6543" ph="&gt;" />
+                <marker date="1510059844897" expanded="true" signature="6543:6547" ph="&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/blog/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3248">
+              <caret line="112" column="5" lean-forward="false" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/blog/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6090">
+              <caret line="275" column="26" lean-forward="false" selection-start-line="275" selection-start-column="26" selection-end-line="275" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#figcaption#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#ul#0;n#figure#1;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#b#0;n#figcaption#0;n#figure#2;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#8804#9776#0" expanded="false" />
+                <element signature="e#10419#11531#0" expanded="false" />
+                <element signature="e#11571#12918#0" expanded="false" />
+                <element signature="e#12762#12832#0" expanded="false" />
+                <element signature="e#12958#13628#0" expanded="false" />
+                <element signature="e#13678#14482#0" expanded="false" />
+                <element signature="e#13726#14475#0" expanded="false" />
+                <element signature="e#14508#15011#0" expanded="false" />
+                <element signature="e#15057#15401#0" expanded="false" />
+                <marker date="1510491084057" expanded="true" signature="5765:5776" ph="..." />
+                <marker date="1510491084057" expanded="true" signature="7815:7876" ph="..." />
+                <marker date="1510491084057" expanded="true" signature="8016:8020" ph="&gt;" />
+                <marker date="1510491084057" expanded="true" signature="8020:8024" ph="&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\n</find>
+      <find>search_form</find>
+      <find>title</find>
+      <find>inbox</find>
+      <find>查询</find>
+      <find>url</find>
+      <find>artdigest</find>
+      <find>map</find>
+      <find>c</find>
+      <find>多萨达大神带撒打算的大神带</find>
+      <find>body</find>
+      <find>more</find>
+      <find>overflow</find>
+      <find>.cbp_tmtimeline</find>
+      <find>doEcha</find>
+      <find>background</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>\\\n</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Downloads/ueditor-1.4.3.3/deemo.html" />
+        <option value="E:/富文本/utf8-php/deemo.html" />
+        <option value="$PROJECT_DIR$/public/admin/admin.html" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/../高校食堂管理系统/app/public/admin/pages/userlist.html" />
+        <option value="$PROJECT_DIR$/public/admin/ueditor.config.js" />
+        <option value="$PROJECT_DIR$/public/admin/ueditor/nodejs/config.json" />
+        <option value="$PROJECT_DIR$/public/admin/ueditor/ueditor.config.js" />
+        <option value="$USER_HOME$/Desktop/ueditor-master/example/public/ueditor/index.html" />
+        <option value="E:/ueditor-master/example/views/article_add.html" />
+        <option value="E:/ueditor-master/example/app.js" />
+        <option value="$PROJECT_DIR$/public/main/单页.html" />
+        <option value="$PROJECT_DIR$/public/main/首页.html" />
+        <option value="$PROJECT_DIR$/public/blog/css/main.css" />
+        <option value="$PROJECT_DIR$/public/blog/css/share.css" />
+        <option value="$PROJECT_DIR$/public/blog/gbook.html" />
+        <option value="$PROJECT_DIR$/public/blog/mbfx.html" />
+        <option value="$PROJECT_DIR$/public/blog/css/1.html" />
+        <option value="$USER_HOME$/Downloads/2017/html/index.html" />
+        <option value="$USER_HOME$/Downloads/2017/html/css/index.css" />
+        <option value="$PROJECT_DIR$/public/blog/css/showpage.css" />
+        <option value="$PROJECT_DIR$/public/life_add.html" />
+        <option value="$PROJECT_DIR$/public/admin/nav.js" />
+        <option value="$PROJECT_DIR$/public/admin/life_add.html" />
+        <option value="$PROJECT_DIR$/public/admin/images/index.css" />
+        <option value="$PROJECT_DIR$/public/admin/article_add.html" />
+        <option value="$PROJECT_DIR$/public/admin/article_show.html" />
+        <option value="$PROJECT_DIR$/public/admin/article_edit.html" />
+        <option value="$PROJECT_DIR$/public/blog/11.html" />
+        <option value="$PROJECT_DIR$/public/blog/css/base.css" />
+        <option value="E:/作业/javascript(高级)/杜尘然9.1(模块化组件)/js/jquery.action.js" />
+        <option value="E:/作业/javascript/课堂练习/原生JS左右循环滚动幻灯片代码/js/sucaijiayuan.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/public/blog/css/about.css" />
+        <option value="$PROJECT_DIR$/public/blog/js/domove.js" />
+        <option value="$PROJECT_DIR$/public/blog/css/msh.css" />
+        <option value="$PROJECT_DIR$/public/blog/css/book.css" />
+        <option value="$PROJECT_DIR$/public/blog/css/learn.css" />
+        <option value="$PROJECT_DIR$/public/ueditor/ueditor.config.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/public/blog/manshenghuo.html" />
+        <option value="$PROJECT_DIR$/public/blog/gulp.js" />
+        <option value="$PROJECT_DIR$/public/blog/gulpfile.js" />
+        <option value="$PROJECT_DIR$/public/blog/js/fenye.js" />
+        <option value="$PROJECT_DIR$/routes/article.js" />
+        <option value="$PROJECT_DIR$/public/blog/index.html" />
+        <option value="$PROJECT_DIR$/public/blog/css/index.css" />
+        <option value="$PROJECT_DIR$/public/blog/about.html" />
+        <option value="$PROJECT_DIR$/public/ueditor/ueditor.all.js" />
+        <option value="$PROJECT_DIR$/public/blog/learn.html" />
+        <option value="$PROJECT_DIR$/public/blog/learnpage.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="83" />
+    <option name="y" value="56" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="ueditor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.4.0" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\项目\blog\public\admin" />
+      <recent name="E:\项目\blog\public\blog\lib\bootstrap\dist\fonts" />
+      <recent name="E:\项目\blog\public\blog\lib" />
+      <recent name="E:\项目\blog\public\blog\css" />
+      <recent name="E:\项目\blog\public\blog\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\项目\blog\public\blog\images" />
+      <recent name="E:\项目\blog\public\blog" />
+      <recent name="E:\项目\blog\public\blog\fonts" />
+      <recent name="E:\项目\blog\public\blog\js" />
+      <recent name="E:\项目\blog\public\blog\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration name="app.js (4)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="E:/ueditor-master/example" />
+    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="article_edit.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/public/admin/article_edit.html" />
+    <configuration name="article.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="article.js" working-dir="$PROJECT_DIR$/routes" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/blog/public/blog/index.html" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.app.js (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.article.js" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.article_edit.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.article_edit.html" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.article.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.app.js (4)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efb6a966-5744-4172-8b02-3bd51384d86f" name="Default" comment="" />
+      <created>1506142751726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506142751726</updated>
+      <workItem from="1506142753084" duration="4613000" />
+      <workItem from="1506213711650" duration="1863000" />
+      <workItem from="1506217446752" duration="2510000" />
+      <workItem from="1506219990294" duration="2383000" />
+      <workItem from="1506227577938" duration="6553000" />
+      <workItem from="1506237977267" duration="698000" />
+      <workItem from="1506239442086" duration="4141000" />
+      <workItem from="1506245976150" duration="9610000" />
+      <workItem from="1506255711745" duration="5708000" />
+      <workItem from="1506262403905" duration="616000" />
+      <workItem from="1506300064615" duration="16051000" />
+      <workItem from="1506403118393" duration="793000" />
+      <workItem from="1506403989761" duration="34000" />
+      <workItem from="1506741093827" duration="3149000" />
+      <workItem from="1506745627165" duration="1209000" />
+      <workItem from="1506749406291" duration="44000" />
+      <workItem from="1506750118271" duration="3615000" />
+      <workItem from="1506754103612" duration="199000" />
+      <workItem from="1506754983413" duration="600000" />
+      <workItem from="1506772439029" duration="6044000" />
+      <workItem from="1506819232424" duration="8432000" />
+      <workItem from="1506861594360" duration="6208000" />
+      <workItem from="1507184138685" duration="889000" />
+      <workItem from="1507185105085" duration="8156000" />
+      <workItem from="1507258317880" duration="7824000" />
+      <workItem from="1507279078676" duration="7509000" />
+      <workItem from="1507336785520" duration="112000" />
+      <workItem from="1507360887426" duration="614000" />
+      <workItem from="1508133345696" duration="5393000" />
+      <workItem from="1508141654591" duration="3362000" />
+      <workItem from="1508201848882" duration="4474000" />
+      <workItem from="1508633091726" duration="21028000" />
+      <workItem from="1508725814952" duration="13539000" />
+      <workItem from="1508805752061" duration="17935000" />
+      <workItem from="1508839031210" duration="7170000" />
+      <workItem from="1508892405423" duration="16168000" />
+      <workItem from="1508928358196" duration="5233000" />
+      <workItem from="1508936167684" duration="6810000" />
+      <workItem from="1508978754087" duration="23847000" />
+      <workItem from="1509021377329" duration="2957000" />
+      <workItem from="1509071657531" duration="3440000" />
+      <workItem from="1509108183324" duration="866000" />
+      <workItem from="1509156825713" duration="9455000" />
+      <workItem from="1509178499883" duration="1939000" />
+      <workItem from="1509188400707" duration="132000" />
+      <workItem from="1509239526713" duration="6601000" />
+      <workItem from="1509335224418" duration="693000" />
+      <workItem from="1509336131404" duration="19959000" />
+      <workItem from="1509417855328" duration="31000" />
+      <workItem from="1509422208615" duration="11000" />
+      <workItem from="1509505146344" duration="3556000" />
+      <workItem from="1509519265917" duration="29000" />
+      <workItem from="1509533797668" duration="14000" />
+      <workItem from="1509708141609" duration="3604000" />
+      <workItem from="1509712266986" duration="64000" />
+      <workItem from="1509714964937" duration="5934000" />
+      <workItem from="1509756128238" duration="1333000" />
+      <workItem from="1509773386528" duration="2140000" />
+      <workItem from="1509842996736" duration="22174000" />
+      <workItem from="1509929175019" duration="403000" />
+      <workItem from="1509930244703" duration="15000" />
+      <workItem from="1509960953222" duration="892000" />
+      <workItem from="1509966025717" duration="4146000" />
+      <workItem from="1510015742006" duration="14336000" />
+      <workItem from="1510038407119" duration="687000" />
+      <workItem from="1510055232052" duration="1240000" />
+      <workItem from="1510059758912" duration="82000" />
+      <workItem from="1510144576049" duration="68000" />
+      <workItem from="1510203484740" duration="5063000" />
+      <workItem from="1510484692490" duration="6673000" />
+      <workItem from="1510534707070" duration="3924000" />
+      <workItem from="1506668531147" duration="800000" />
+      <workItem from="1506669474950" duration="2859000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="361256000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2595339" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58089036" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17702845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/blog/index.html</url>
+          <line>389</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/admin/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../高校食堂管理系统/app/public/admin/pages/userlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="218" column="96" lean-forward="true" selection-start-line="218" selection-start-column="71" selection-end-line="218" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/javascript/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../blog - 副本/public/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5510">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/images/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../杜尘然lego项目/legoChina/logoin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/p2p/code/codeDcr/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/mvc+webpack/mvc/code/backbone-todomvc/js/views/todoView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1537">
+          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/article_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="74" column="37" lean-forward="false" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/javascript(高级)/课堂练习/轮播/js/jquery.action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/javascript(高级)/课堂练习/放大镜/js/zoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="39" column="2" lean-forward="false" selection-start-line="39" selection-start-column="2" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/javascript(高级)/杜尘然9.1(模块化组件)/js/jquery.action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1682">
+          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/callme最后的大魔王/js/dcrjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/callme最后的大魔王/js/面试.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/javascript(高级)/课堂练习/domove/js/doMove.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-970">
+          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/javascript(高级)/杜尘然8.29(插件开发入门)/js/demmo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-521">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/jquery/8.14杜尘然作业/move-easing/easing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-812">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/javascript/杜尘然JS/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/javascript(高级)/课堂练习/轮播.html" />
+    <entry file="file://E:/作业/javascript/课堂练习/原生JS左右循环滚动幻灯片代码/js/sucaijiayuan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/01-life.js" />
+    <entry file="file://$PROJECT_DIR$/public/admin/article_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3654">
+          <caret line="126" column="40" lean-forward="false" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/article_show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2963">
+          <caret line="154" column="77" lean-forward="false" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/css/index-copy.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/11.html" />
+    <entry file="file://$PROJECT_DIR$/public/blog/css/share.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/css/msh.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="38" column="76" lean-forward="false" selection-start-line="38" selection-start-column="76" selection-end-line="38" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/js/domove.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="118" column="18" lean-forward="false" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/css/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1901">
+          <caret line="116" column="24" lean-forward="true" selection-start-line="116" selection-start-column="24" selection-end-line="116" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/nodejs/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2257">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2852">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/css/book.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/css/learn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/manshenghuo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5133">
+          <caret line="177" column="15" lean-forward="false" selection-start-line="177" selection-start-column="15" selection-end-line="177" selection-end-column="15" />
+          <folding>
+            <marker date="1510059844897" expanded="true" signature="6348:6409" ph="..." />
+            <marker date="1510059844897" expanded="true" signature="6539:6543" ph="&gt;" />
+            <marker date="1510059844897" expanded="true" signature="6543:6547" ph="&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3248">
+          <caret line="112" column="5" lean-forward="false" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/作业/html5+css3/html5第四天/bike.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="149" column="3" lean-forward="false" selection-start-line="149" selection-start-column="3" selection-end-line="163" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/p2p/code/codeDcr/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/js/fenye.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1856">
+          <caret line="64" column="43" lean-forward="false" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="45" column="182" lean-forward="false" selection-start-line="45" selection-start-column="182" selection-end-line="45" selection-end-column="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6090">
+          <caret line="275" column="26" lean-forward="false" selection-start-line="275" selection-start-column="26" selection-end-line="275" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#figcaption#0;n#figure#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#ul#0;n#figure#1;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#b#0;n#figcaption#0;n#figure#2;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#8804#9776#0" expanded="false" />
+            <element signature="e#10419#11531#0" expanded="false" />
+            <element signature="e#11571#12918#0" expanded="false" />
+            <element signature="e#12762#12832#0" expanded="false" />
+            <element signature="e#12958#13628#0" expanded="false" />
+            <element signature="e#13678#14482#0" expanded="false" />
+            <element signature="e#13726#14475#0" expanded="false" />
+            <element signature="e#14508#15011#0" expanded="false" />
+            <element signature="e#15057#15401#0" expanded="false" />
+            <marker date="1510491084057" expanded="true" signature="5765:5776" ph="..." />
+            <marker date="1510491084057" expanded="true" signature="7815:7876" ph="..." />
+            <marker date="1510491084057" expanded="true" signature="8016:8020" ph="&gt;" />
+            <marker date="1510491084057" expanded="true" signature="8020:8024" ph="&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22072">
+          <caret line="1175" column="7" lean-forward="true" selection-start-line="1175" selection-start-column="7" selection-end-line="1175" selection-end-column="7" />
+          <folding>
+            <marker date="1506670231472" expanded="true" signature="342175:342192" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="346808:346826" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="388873:388899" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="520373:520449" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="547257:547329" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="557220:557246" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="557442:557533" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="557790:557865" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="558052:558067" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="558287:558339" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="570261:570350" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="634559:634631" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="653641:653653" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="655885:655909" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="680978:680984" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="680984:680990" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="681094:681100" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="681100:681106" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="681210:681216" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="681216:681222" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="683391:683397" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="683397:683403" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="684370:684376" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="684376:684382" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="684522:684528" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="684528:684534" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="684676:684682" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="684682:684688" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="684832:684838" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="684838:684844" ph=" " />
+            <marker date="1506670231472" expanded="true" signature="685654:685665" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="689602:689615" ph="..." />
+            <marker date="1506670231472" expanded="true" signature="689992:690028" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/learn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1506670321599" expanded="true" signature="4273:4283" ph="..." />
+            <marker date="1506670321599" expanded="true" signature="4284:4292" ph="..." />
+            <marker date="1506670321599" expanded="true" signature="4431:4459" ph="..." />
+            <marker date="1506670321599" expanded="true" signature="6172:6233" ph="..." />
+            <marker date="1506670321599" expanded="true" signature="6353:6357" ph="&gt;" />
+            <marker date="1506670321599" expanded="true" signature="6357:6361" ph="&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/blog/learnpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <marker date="1506670415164" expanded="true" signature="3963:3967" ph="&gt;" />
+            <marker date="1506670415164" expanded="true" signature="4005:4009" ph="&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ueditor/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <marker date="1509969961155" expanded="true" signature="10270:10280" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
